@@ -1,20 +1,20 @@
 {
-	"manifest_version": 2,
-	"name": "Hide Scores",
-	"version": "0.1",
-	"description": "Hides numerical scores from reviews across various websites",
-	"author": "Michael Bortnyck",
+  "manifest_version": 2,
+  "name": "Hide Scores",
+  "version": "0.1",
+  "description": "Hides numerical scores from reviews across various websites",
+  "author": "Michael Bortnyck",
 
-	"permissions": [
-		"tabs",
-		"http://pitchfork.com/*"
-	],
+  "permissions": [
+    "tabs",
+    "http://pitchfork.com/*"
+  ],
 
-	"content_scripts": [
-		{
-			"matches": ["http://pitchfork.com/*"],
-			"css": ["pitchfork.css"],
-			"all_frames": true
-		}
-	]
+  "content_scripts": [
+    {
+      "matches": ["http://pitchfork.com/*"],
+      "css": ["pitchfork.css"],
+      "all_frames": true
+    }
+  ]
 }

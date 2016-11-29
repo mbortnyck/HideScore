@@ -1,23 +1,23 @@
 /* Hide score */
 .score-box {
-	visibility: hidden !important;
+  visibility: hidden !important;
 }
 /* Don't display BNM text */
 .bnm {
-	display: none !important;
+  display: none !important;
 }
 /* Hide BNM corner arrows */
 .with-notch:before {
-	content: none !important;
+  content: none !important;
 }
 .with-notch:after {
-	content: none !important;
+  content: none !important;
 }
 /* Don't dislay BNM navigation links on reviews page */
 nav#section-menu.reviews-navigation.section-links ul li:nth-child(n+3):nth-child(-n+5) {
-	display: none !important;
+  display: none !important;
 }
 /* Don't display BNM link on top navigation bar */
 nav.primary-nav ul li:nth-child(3) {
-	display: none !important;
+  display: none !important;
 }
