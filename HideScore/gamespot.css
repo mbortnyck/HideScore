@@ -1,0 +1,29 @@
+/* Hides review scores */
+a.js-event-tracking div.media-well.media-well--review {
+  display: none;
+}
+/* Numeric score circles */
+div.gs-score {
+  display: none;
+}
+/* Front page - Right side review text */
+dl.game-score.align-vertical--child {
+	border: none;
+  visibility: hidden;
+}
+/* Front page - Right side review "score" column text */
+span.reviews-list__header-score {
+  visibility: hidden;
+}
+/* Main review - Bottom score */
+dl.breakdown.breakdown-score dt.review-score {
+  visibility: hidden;
+}
+/* Main review - Bottom score text */
+dl.breakdown.breakdown-score dd.score-word {
+  visibility: hidden;
+}
+/* User reviews section */
+div#object-stats-wrap div.pod-objectStats-reviews {
+  display: none;
+}

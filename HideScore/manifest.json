@@ -7,10 +7,16 @@
 
   "permissions": [
     "tabs",
-    "http://pitchfork.com/*"
+    "http://pitchfork.com/*",
+    "http://gamespot.com/*"
   ],
 
   "content_scripts": [
+    {
+      "matches": ["http://www.gamespot.com/*"],
+      "css": ["gamespot.css"],
+      "all_frames": true
+    },
     {
       "matches": ["http://pitchfork.com/*"],
       "css": ["pitchfork.css"],
