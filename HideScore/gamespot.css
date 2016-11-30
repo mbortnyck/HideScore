@@ -2,6 +2,17 @@
 a.js-event-tracking div.media-well.media-well--review {
   display: none;
 }
+/* Reviews page - Sort by: highest to lowest dropdown */
+span.sort-label.sort-label--container {
+  visibility: hidden;
+}
+div.sort.sort--simple label.sort-label {
+  visibility: hidden;
+}
+/* Reviews page - Advanced filter options: minimum score */
+#reviews_filter_form #advanced-filter-options-content li:nth-child(1) {
+  display: none;
+}
 /* Front page/reviews page - score circles */
 div.gs-score {
   display: none;
