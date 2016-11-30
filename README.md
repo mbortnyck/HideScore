@@ -19,7 +19,7 @@ Shouldn't be! Great care has been taken to ensure that all removed/hidden elemen
 
 Some screenshots:
 <p align="center">
-<img src="http://i.imgur.com/AYazmwS.jpg">
-<img src="http://i.imgur.com/nvPk4tY.jpg">
+<img src="http://i.imgur.com/AYazmwS.jpg"><br>
+<img src="http://i.imgur.com/nvPk4tY.jpg"><br>
 <img src="http://i.imgur.com/04UzDcf.jpg">
 </p>
