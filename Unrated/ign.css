@@ -33,7 +33,7 @@
 	visibility: hidden;
 }
 /* Reviews section - Top Games module scores */
-.topgames-module .games .rating {
+div.right-col-module .topgames-module .games .rating {
 	display: none;
 }
 /* Hot reviews module scores */
