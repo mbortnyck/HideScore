@@ -11,7 +11,9 @@
     "http://www.gamespot.com/*",
     "https://www.residentadvisor.net/*",
     "https://www.xlr8r.com/*",
-    "http://www.avclub.com/*"
+    "http://www.avclub.com/*",
+    "http://www.rollingstone.com/*",
+    "http://www.nme.com/*"
   ],
 
   "content_scripts": [
@@ -36,6 +38,11 @@
       "all_frames": true
     },
     {
+      "matches": ["http://www.rollingstone.com/*", "https://www.rollingstone.com/*"],
+      "css": ["rollingstone.css"],
+      "all_frames": true
+    },
+    {
       "matches": ["http://www.xlr8r.com/*", "https://www.xlr8r.com/*"],
       "css": ["xlr8r.css"],
       "all_frames": true
@@ -43,6 +50,10 @@
     {
       "matches": ["http://www.avclub.com/*", "https://www.avclub.com/*"],
       "css": ["avclub.css"]
+    },
+    {
+      "matches": ["http://www.nme.com/*", "https://www.nme.com/*"],
+      "css": ["nme.css"]
     }
   ]
 }
