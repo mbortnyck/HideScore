@@ -17,9 +17,9 @@ With many more planned.
 ### "Are the changes noticeable?"
 Shouldn't be! Great care has been taken to ensure that all removed/hidden elements don't inadvertantly alter the rest of the site's functionality or layout.
 
-Some screenshots:
+Some screenshots:<br>
 <p align="center">
 <img src="http://i.imgur.com/AYazmwS.jpg"><br>
-<img src="http://i.imgur.com/nvPk4tY.jpg"><br>
+<img src="http://i.imgur.com/nvPk4tY.jpg"><br><br>
 <img src="http://i.imgur.com/04UzDcf.jpg">
 </p>
