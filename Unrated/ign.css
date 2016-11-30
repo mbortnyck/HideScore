@@ -36,3 +36,7 @@
 .topgames-module .games .rating {
 	display: none;
 }
+/* Hot reviews module scores */
+div.right-col-module .hotreviews-module .items .rating {
+	visibility: hidden;
+}
