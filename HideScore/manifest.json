@@ -8,19 +8,26 @@
   "permissions": [
     "tabs",
     "http://pitchfork.com/*",
-    "http://gamespot.com/*"
+    "http://gamespot.com/*",
+    "http://residentadvisor.net/*"
   ],
 
   "content_scripts": [
     {
-      "matches": ["http://www.gamespot.com/*"],
+      "matches": ["http://pitchfork.com/*"],
+      "css": ["pitchfork.css"],
+      "all_frames": true
+    },
+    {
+      "matches": ["http://gamespot.com/*"],
       "css": ["gamespot.css"],
       "all_frames": true
     },
     {
-      "matches": ["http://pitchfork.com/*"],
-      "css": ["pitchfork.css"],
+      "matches": ["http://residentadvisor.net/*"],
+      "js": ["residentadvisor.js"],
       "all_frames": true
     }
-  ]
+  ],
+  "web_accessible_resources": ["residentadvisor.css"]
 }

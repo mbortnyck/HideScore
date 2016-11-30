@@ -6,7 +6,7 @@ a.js-event-tracking div.media-well.media-well--review {
 div.gs-score {
   display: none;
 }
-/* Front page - Right side review text */
+/* Front page - Right side review box */
 dl.game-score.align-vertical--child {
 	border: none;
   visibility: hidden;
@@ -26,4 +26,15 @@ dl.breakdown.breakdown-score dd.score-word {
 /* User reviews section */
 div#object-stats-wrap div.pod-objectStats-reviews {
   display: none;
+}
+/* Game page - Score box */
+.kubrick-lead--gamespace .reviewObject {
+	display: none !important;
+}
+/* Game page - Player reviews/breakdown */
+section.pod.pod-reviewBreakdown {
+	display: none;
+}
+li.media.media-game.userReview-list__item div.media-well.media-well--review {
+	display: none;
 }

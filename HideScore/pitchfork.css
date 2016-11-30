@@ -1,6 +1,6 @@
 /* Hide score */
 .score-box {
-  visibility: hidden !important;
+  visibility: hidden;
 }
 /* Don't display BNM text */
 .bnm {
@@ -13,11 +13,11 @@
 .with-notch:after {
   content: none !important;
 }
-/* Don't dislay BNM navigation links on reviews page */
+/* Don't dislay BNM/8.0+ links on reviews page */
 nav#section-menu.reviews-navigation.section-links ul li:nth-child(n+3):nth-child(-n+5) {
-  display: none !important;
+  display: none;
 }
 /* Don't display BNM link on top navigation bar */
 nav.primary-nav ul li:nth-child(3) {
-  display: none !important;
+  display: none;
 }
