@@ -9,7 +9,9 @@
     "tabs",
     "http://pitchfork.com/*",
     "http://www.gamespot.com/*",
-    "https://www.residentadvisor.net/*"
+    "https://www.residentadvisor.net/*",
+    "https://www.xlr8r.com/*",
+    "http://www.avclub.com/*"
   ],
 
   "content_scripts": [
@@ -29,9 +31,18 @@
       "all_frames": true
     },
     {
-      "matches": ["https://www.residentadvisor.net/reviews.aspx"],
+      "matches": ["http://www.residentadvisor.net/reviews.aspx", "https://www.residentadvisor.net/reviews.aspx"],
       "css": ["residentadvisor_reviews.css"],
       "all_frames": true
+    },
+    {
+      "matches": ["http://www.xlr8r.com/*", "https://www.xlr8r.com/*"],
+      "css": ["xlr8r.css"],
+      "all_frames": true
+    },
+    {
+      "matches": ["http://www.avclub.com/*", "https://www.avclub.com/*"],
+      "css": ["avclub.css"]
     }
   ]
 }
