@@ -2,7 +2,7 @@
 HideScore is a chrome extension for hiding all traces of numeric scores/letter grades from review sites. This includes not only the ratings themselves, but also links to "best of" sections (e.g. Pitchfork's "Best New Music" or "8.0+" sections) and options to sort by rating.
 
 ### "Uh, why??"
-My own laziness. I caught myself simply checking the numeric score on music reviews without reading the actual article more often than not. When I got around to actually listening to the release, that nearly-arbitrary score tended to influence my opinion in a big way (more often than I'd like to admit).
+My own laziness. I caught myself simply checking the numeric score on music reviews without reading the actual article more often than not. When I got around to actually listening to the release, that nearly-arbitrary score tended to influence my opinion in a big way (more often than I'd like to admit). Once I figured out how to remove the ratings, I started experimenting with removing/modifying other related elements.
 
 ### "Gotcha. Which sites does it work on?"
 So far:
