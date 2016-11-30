@@ -1,0 +1,33 @@
+/* "RA Recommends" seal */
+div.recommended div.overlay {
+	display: none;
+}
+/* Reviews section - "RA Recommends" top link */
+li#subnav-tech {
+	border-right: 1px solid rgba(255,255,255,.4);
+}
+li#subnav-ra-recommends {
+	display: none;
+}
+/* Reviews archive grid - consistent album art size */
+ul.list.reviewArchive li.popular {
+	height: 320px;
+	width: 152px;
+}
+/* Reviews archive grid - consistent album art text */
+ul.list.reviewArchive li.popular article a h1 {
+	font-size: 16px;
+	line-height: 1.15em;
+	display: inline;
+}
+ul.list.reviewArchive li.popular article div.sub {
+	font-size: 16px;
+}
+/* Review - Hide score */
+div.plus8 aside#detail ul.clearfix li:nth-child(5) {
+	visibility: hidden;
+}
+/* Tech review - bottom ratings */
+div.reviewContent span.grey {
+	display: none;
+}

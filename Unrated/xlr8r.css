@@ -1,0 +1,8 @@
+/* Hide circle scores */
+.circle_rating.small {
+	display: none;
+}
+/* Reviews - Hide rating box */
+div.post-content.entry-content.cf aside.post-review.style2 {
+	display: none;
+}
