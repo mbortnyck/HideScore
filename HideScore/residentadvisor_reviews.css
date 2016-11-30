@@ -1,7 +1,0 @@
-/* Reviews section - RA Recommends row */
-ul.content-list li:nth-child(1) section.content.clearfix {
-	display: none;
-}
-ul.content-list li:nth-child(1) span {
-	display: none;
-}
