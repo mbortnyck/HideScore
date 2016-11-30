@@ -8,8 +8,10 @@ My own laziness. I caught myself simply checking the numeric score on music revi
 So far:
 - [The A.V. Club](http://www.avclub.com/)
 - [Gamespot](http://www.gamespot.com/)
+- [NME](http://www.nme.com/)
 - [Pitchfork](http://pitchfork.com/)
 - [Resident Advisor](http://www.residentadvisor.net/)
+- [Rolling Stone](http://www.rollingstone.com/)
 - [XLR8R](http://www.xlr8r.com/)
 
 With many more planned.
