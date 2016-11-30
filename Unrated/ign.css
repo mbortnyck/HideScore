@@ -1,0 +1,6 @@
+.breakdown-box .score-text {
+	visibility: hidden;
+}
+.breakdown-box .score-wrapper {
+	display: none;
+}

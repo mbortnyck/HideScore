@@ -13,7 +13,8 @@
     "https://www.xlr8r.com/*",
     "http://www.avclub.com/*",
     "http://www.rollingstone.com/*",
-    "http://www.nme.com/*"
+    "http://www.nme.com/*",
+    "http://www.ign.com/*"
   ],
 
   "content_scripts": [
@@ -54,6 +55,10 @@
     {
       "matches": ["http://www.nme.com/*", "https://www.nme.com/*"],
       "css": ["nme.css"]
+    },
+    {
+      "matches": ["http://www.ign.com/*", "https://www.ign.com/*"],
+      "css": ["ign.css"]
     }
   ]
 }
