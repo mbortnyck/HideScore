@@ -1,6 +1,38 @@
+/* Review - Score */
 .breakdown-box .score-text {
 	visibility: hidden;
 }
 .breakdown-box .score-wrapper {
+	display: none;
+}
+/* Reviews section - Rating column */
+.itemList-header .omega
+{
+	display: none;
+}
+.itemList-item .omega
+{
+	display: none;
+}
+/* Reviews section - move release date column to right */
+.itemList-header div:nth-child(3) {
+	float: right;
+}
+.itemList-item div:nth-child(3) {
+	float: right;
+}
+/* Reviews section - "Editor's choice" link */
+#editors-choice-selector {
+	visibility: hidden;
+}
+/* Reviews section - Score filtering */
+#review-filters .score-container {
+	visibility: hidden;
+}
+#review-filters #reviewValue {
+	visibility: hidden;
+}
+/* Reviews section - Top Games module scores */
+.topgames-module .games .rating {
 	display: none;
 }
