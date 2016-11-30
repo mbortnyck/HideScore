@@ -1,12 +1,12 @@
-/* Hides review scores */
+/* Reviews page - latest reviews list scores */
 a.js-event-tracking div.media-well.media-well--review {
   display: none;
 }
-/* Numeric score circles */
+/* Front page/reviews page - score circles */
 div.gs-score {
   display: none;
 }
-/* Front page - Right side review box */
+/* Front page - right column review list scores */
 dl.game-score.align-vertical--child {
 	border: none;
   visibility: hidden;
@@ -23,7 +23,7 @@ dl.breakdown.breakdown-score dt.review-score {
 dl.breakdown.breakdown-score dd.score-word {
   visibility: hidden;
 }
-/* User reviews section */
+/* Game page - user reviews section */
 div#object-stats-wrap div.pod-objectStats-reviews {
   display: none;
 }
@@ -31,10 +31,11 @@ div#object-stats-wrap div.pod-objectStats-reviews {
 .kubrick-lead--gamespace .reviewObject {
 	display: none !important;
 }
-/* Game page - Player reviews/breakdown */
+/* Game page - Player review average/breakdown */
 section.pod.pod-reviewBreakdown {
 	display: none;
 }
+/* Game page - user review scores */
 li.media.media-game.userReview-list__item div.media-well.media-well--review {
 	display: none;
 }
