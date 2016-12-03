@@ -1,5 +1,5 @@
 # Unrated
-Unrated is a chrome extension for hiding all traces of numeric scores/letter grades from review sites. This includes not only the ratings themselves, but also links to "best of" sections (e.g. Pitchfork's "Best New Music" or IGN's "Editor's Choice") and options to sort by rating.
+Unrated is a chrome extension for hiding all traces of numeric scores/letter grades from review sites. This includes not only the ratings themselves, but also links to "best of" sections (e.g. Pitchfork's "Best New Music" or IGN's "Editor's Choice") and other score-related features ("sort by rating", etc.).
 
 ### "Uh, why??"
 My own laziness. I caught myself simply checking the numeric score on music reviews without reading the actual article more often than not. When I got around to actually listening to the release, that nearly-arbitrary score tended to influence my opinion. Once I figured out how to remove the ratings, I started experimenting with removing/modifying other related elements.
