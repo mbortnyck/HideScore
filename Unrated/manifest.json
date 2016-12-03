@@ -13,61 +13,38 @@
 
   "permissions": [
     "tabs",
-    "http://pitchfork.com/*",
-    "http://www.gamespot.com/*",
-    "https://www.residentadvisor.net/*",
-    "https://www.xlr8r.com/*",
-    "http://www.avclub.com/*",
-    "http://www.rollingstone.com/*",
-    "http://www.nme.com/*",
-    "http://www.ign.com/*"
+    "http://*/*",
+    "https://*/*"
   ],
 
   "content_scripts": [
     {
-      "matches": ["http://pitchfork.com/*", "https://pitchfork.com/*"],
-      "css": ["pitchfork.css"],
-      "all_frames": true
-    },
-    {
-      "matches": ["http://www.gamespot.com/*", "https://www.gamespot.com/*"],
-      "css": ["gamespot.css"],
-      "all_frames": true
-    },
-    {
-      "matches": ["http://www.residentadvisor.net/*", "https://www.residentadvisor.net/*"],
-      "css": ["residentadvisor.css"],
-      "all_frames": true
-    },
-    {
-      "matches": ["http://www.residentadvisor.net/reviews.aspx", "https://www.residentadvisor.net/reviews.aspx"],
-      "css": ["residentadvisor_reviews.css"],
-      "all_frames": true
-    },
-    {
-      "matches": ["http://www.rollingstone.com/*", "https://www.rollingstone.com/*"],
-      "css": ["rollingstone.css"],
-      "all_frames": true
-    },
-    {
-      "matches": ["http://www.xlr8r.com/*", "https://www.xlr8r.com/*"],
-      "css": ["xlr8r.css"],
-      "all_frames": true
-    },
-    {
-      "matches": ["http://www.avclub.com/*", "https://www.avclub.com/*"],
-      "css": ["avclub.css"]
-    },
-    {
-      "matches": ["http://www.nme.com/*", "https://www.nme.com/*"],
-      "css": ["nme.css"]
-    },
-    {
-      "matches": ["http://www.ign.com/*", "https://www.ign.com/*"],
-      "css": ["ign.css"]
+      "matches": [
+        "http://www.avclub.com/*", "https://www.avclub.com/*",
+        "http://www.gamespot.com/*", "https://www.gamespot.com/*",
+        "http://www.ign.com/*", "https://www.ign.com/*",
+        "http://www.nme.com/*", "https://www.nme.com/*",
+        "http://pitchfork.com/*", "https://pitchfork.com/*",
+        "http://www.residentadvisor.net/*", "https://www.residentadvisor.net/*",
+        "http://www.rollingstone.com/*", "https://www.rollingstone.com/*",
+        "http://www.xlr8r.com/*", "https://www.xlr8r.com/*"
+      ],
+      "js": ["inject.js"],
+      "run_at": "document_start"
     }
   ],
 
-  "options_page": "options/options.html",
-  "web_accessible_resources": ["images/icon-128.png", "options/bg-border-light.png"]
+  "web_accessible_resources": [
+    "styles/avclub.css",
+    "styles/gamespot.css",
+    "styles/ign.css",
+    "styles/nme.css",
+    "styles/pitchfork.css",
+    "styles/residentadvisor.css",
+    "styles/residentadvisor_reviews.css",
+    "styles/rollingstone.css",
+    "styles/xlr8r.css",
+    "images/icon-128.png",
+    "options/bg-border-light.png"
+  ]
 }
