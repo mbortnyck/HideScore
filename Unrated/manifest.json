@@ -12,10 +12,16 @@
   },
 
   "permissions": [
+    "storage",
     "tabs",
     "http://*/*",
     "https://*/*"
   ],
+
+  "options_ui": {
+    "page": "options/options.html",
+    "chrome_style": true
+  },
 
   "content_scripts": [
     {
