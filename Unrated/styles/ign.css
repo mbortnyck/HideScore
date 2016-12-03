@@ -1,42 +1,42 @@
 /* Review - Score */
 .breakdown-box .score-text {
-	visibility: hidden;
+  visibility: hidden;
 }
 .breakdown-box .score-wrapper {
-	display: none;
+  display: none;
 }
 /* Reviews section - Rating column */
 .itemList-header .omega
 {
-	display: none;
+  display: none;
 }
 .itemList-item .omega
 {
-	display: none;
+  display: none;
 }
 /* Reviews section - move release date column to right */
 .itemList-header div:nth-child(3) {
-	float: right;
+  float: right;
 }
 .itemList-item div:nth-child(3) {
-	float: right;
+  float: right;
 }
 /* Reviews section - "Editor's choice" link */
 #editors-choice-selector {
-	visibility: hidden;
+  visibility: hidden;
 }
 /* Reviews section - Score filtering */
 #review-filters .score-container {
-	visibility: hidden;
+  visibility: hidden;
 }
 #review-filters #reviewValue {
-	visibility: hidden;
+  visibility: hidden;
 }
 /* Reviews section - Top Games module scores */
 div.right-col-module .topgames-module .games .rating {
-	display: none;
+  display: none;
 }
 /* Hot reviews module scores */
 div.right-col-module .hotreviews-module .items .rating {
-	visibility: hidden;
+  visibility: hidden;
 }

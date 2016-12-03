@@ -1,8 +1,8 @@
 /* Reviews section - "our rating" stars */
 article p.pull-right.our-rating {
-	display: none;
+  display: none;
 }
 /* Review - Hide rating box */
 article .product-overview {
-	display: none;
+  display: none;
 }
