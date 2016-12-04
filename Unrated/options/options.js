@@ -31,7 +31,7 @@ function restore_options() {
     document.getElementById('pitchfork'       ).checked = items.pitchfork;
     document.getElementById('residentadvisor' ).checked = items.residentadvisor;
     document.getElementById('rollingstone'    ).checked = items.rollingstone;
-    document.getElementById('xlr8r'           ).checked = items.xl8r;
+    document.getElementById('xlr8r'           ).checked = items.xlr8r;
   });
 }
 

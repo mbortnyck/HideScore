@@ -1,0 +1,59 @@
+body {
+  height: 500px;
+  width: 635px;
+}
+.option {
+  height: 100px;
+  width: 200px;
+  float: left;
+  margin: 5px;
+}
+.check {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  float: left;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid transparent;
+  transition: all .3s;
+  cursor: pointer;
+}
+.check:after {
+  position: absolute;
+  float: left;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+input {
+  display: none;
+}
+input:checked + .avclub {
+  background-color: #1C263C;
+}
+input:checked + .gamespot {
+  background-color: #FFDD00;
+}
+input:checked + .ign {
+  background-color: #D51E28;
+}
+input:checked + .nme {
+  background-color: #ED1C24;
+}
+input:checked + .pitchfork {
+  background-color: #000000;
+}
+input:checked + .residentadvisor {
+  background-color: #ACC500;
+}
+input:checked + .rollingstone {
+  background-color: #ED1C24;
+}
+input:checked + .xlr8r {
+  background-color: #000000;
+}
+button {
+  float: top;
+}

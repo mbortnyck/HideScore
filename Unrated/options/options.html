@@ -2,34 +2,48 @@
 <html>
 <head>
   <title>Unrated Options</title>
-  <style>
-    body: { padding: 10px; }
-  </style>
+  <link rel="stylesheet" href="options.css">
 </head>
 
 <body>
-  <table id="options" align="center">
-    <tr>
-      <td><input type="checkbox" id="avclub"> The A.V. Club</td>
-      <td><input type="checkbox" id="gamespot"> Gamespot</td>
-      <td><input type="checkbox" id="ign"> IGN</td>
-    </tr>
-    <tr>
-      <td><input type="checkbox" id="nme"> NME</td>
-      <td><input type="checkbox" id="pitchfork"> Pitchfork</td>
-      <td><input type="checkbox" id="residentadvisor"> Resident Advisor</td>
-    </tr>
-    <tr>
-      <td><input type="checkbox" id="rollingstone"> Rolling Stone</td>
-      <td><input type="checkbox" id="xlr8r"> XLR8R</td>
-    </tr>
-  </table>
-
-  <div id="status"></div>
-  <div align="center">
-    <button id="save" align="center">Save</button>
+  <div>
+    <div class="option">
+      <input type="checkbox" id="avclub">
+      <label class="check avclub" for="avclub"><img src="../images/svg/avclub.svg"></label>
+    </div>
+    <div class="option">
+      <input type="checkbox" id="gamespot">
+      <label class="check gamespot" for="gamespot"><img src="../images/svg/gamespot.svg"></label>
+    </div>
+    <div class="option">
+      <input type="checkbox" id="ign">
+      <label class="check ign" for="ign"><img src="../images/svg/ign.svg"></label>
+    </div>
+    <div class="option">
+      <input type="checkbox" id="nme">
+      <label class="check nme" for="nme"><img src="../images/svg/nme.svg"></label>
+    </div>
+    <div class="option">
+      <input type="checkbox" id="pitchfork">
+      <label class="check pitchfork" for="pitchfork"><img src="../images/svg/pitchfork.svg"></label>
+    </div>
+    <div class="option">
+      <input type="checkbox" id="residentadvisor">
+      <label class="check residentadvisor" for="residentadvisor"><img src="../images/svg/residentadvisor.svg"></label>
+    </div>
+    <div class="option">
+      <input type="checkbox" id="rollingstone">
+      <label class="check rollingstone" for="rollingstone"><img src="../images/svg/rollingstone.svg"></label>
+    </div>
+    <div class="option">
+      <input type="checkbox" id="xlr8r">
+      <label class="check xlr8r" for="xlr8r"><img src="../images/svg/xlr8r.svg"></label>
+    </div>
+    <div class="option">
+    </div>
   </div>
-
+  <div id="status"></div>
+  <button id="save">Save</button>
   <script src="options.js"></script>
 </body>
 </html>

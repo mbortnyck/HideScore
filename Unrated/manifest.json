@@ -20,7 +20,7 @@
 
   "options_ui": {
     "page": "options/options.html",
-    "chrome_style": true
+    "chrome_style": false
   },
 
   "content_scripts": [
@@ -49,6 +49,6 @@
     "styles/residentadvisor.css",
     "styles/residentadvisor_reviews.css",
     "styles/rollingstone.css",
-    "styles/xlr8r.css",
+    "styles/xlr8r.css"
   ]
 }
