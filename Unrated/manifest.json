@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Unrated",
-  "version": "0.1",
+  "version": "1.0",
   "description": "Hides numerical scores from reviews across various websites",
   "author": "Michael Bortnyck",
 
