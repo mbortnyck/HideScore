@@ -24,3 +24,7 @@ div.section-reviews li.rating div.letter {
 div.section-reviews ul.pilled.tab-navigator li:nth-child(2) {
   visibility: hidden;
 }
+/* Review - User ratings box */
+article #ratings.box {
+	display: none;
+}
