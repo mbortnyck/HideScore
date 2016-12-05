@@ -28,6 +28,7 @@
       "matches": [
         "http://www.avclub.com/*", "https://www.avclub.com/*",
         "http://www.gamespot.com/*", "https://www.gamespot.com/*",
+        "http://www.theguardian.com/*", "https://www.theguardian.com/*",
         "http://www.ign.com/*", "https://www.ign.com/*",
         "http://www.nme.com/*", "https://www.nme.com/*",
         "http://pitchfork.com/*", "https://pitchfork.com/*",
@@ -44,6 +45,7 @@
   "web_accessible_resources": [
     "styles/avclub.css",
     "styles/gamespot.css",
+    "styles/theguardian.css",
     "styles/ign.css",
     "styles/nme.css",
     "styles/pitchfork.css",

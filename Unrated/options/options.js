@@ -3,6 +3,7 @@ function save_options() {
   chrome.storage.sync.set({
     avclub:           document.getElementById('avclub').checked,
     gamespot:         document.getElementById('gamespot').checked,
+    theguardian:      document.getElementById('theguardian').checked,
     ign:              document.getElementById('ign').checked,
     nme:              document.getElementById('nme').checked,
     pitchfork:        document.getElementById('pitchfork').checked,
@@ -13,8 +14,8 @@ function save_options() {
   }, function() {
     // Update status to let user know options were saved.
     var save = document.getElementById('save');
-    save.textContent = 'Options saved.';
-    save.style.background = '#1d9650';
+    save.textContent = 'Options saved';
+    save.style.background = '#1D9650';
     setTimeout(function() {
       save.style.background = '#9e9e9e';
       save.textContent = 'Save';
@@ -29,6 +30,7 @@ function restore_options() {
   chrome.storage.sync.get(null, function(items) {
     document.getElementById('avclub'          ).checked = items.avclub;
     document.getElementById('gamespot'        ).checked = items.gamespot;
+    document.getElementById('theguardian'     ).checked = items.theguardian;
     document.getElementById('ign'             ).checked = items.ign;
     document.getElementById('nme'             ).checked = items.nme;
     document.getElementById('pitchfork'       ).checked = items.pitchfork;
