@@ -11,10 +11,10 @@ function save_options() {
     xlr8r:            document.getElementById('xlr8r').checked
   }, function() {
     // Update status to let user know options were saved.
-    var status = document.getElementById('status');
-    status.textContent = 'Options saved.';
+    var save = document.getElementById('save');
+    save.textContent = 'Options saved.';
     setTimeout(function() {
-      status.textContent = '';
+      save.textContent = 'Save';
     }, 750);
   });
 }

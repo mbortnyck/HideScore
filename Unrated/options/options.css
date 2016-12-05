@@ -15,8 +15,9 @@ body {
   float: left;
   margin: auto;
   background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   border: 2px solid transparent;
-  transition: all .3s;
+  transition: all .2s;
   cursor: pointer;
 }
 .check:after {
@@ -27,6 +28,9 @@ body {
   right: 0;
   margin: auto;
 }
+.check:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
 input {
   display: none;
 }
@@ -34,26 +38,42 @@ input:checked + .avclub {
   background-color: #1C263C;
 }
 input:checked + .gamespot {
-  background-color: #FFDD00;
+  background-color: #ffcc00;
 }
 input:checked + .ign {
-  background-color: #D51E28;
+  background-color: #CC0000;
 }
 input:checked + .nme {
-  background-color: #ED1C24;
+  background-color: #CC0000;
 }
 input:checked + .pitchfork {
-  background-color: #000000;
+  background-color: #2E2E2E;
 }
 input:checked + .residentadvisor {
   background-color: #ACC500;
 }
 input:checked + .rollingstone {
-  background-color: #ED1C24;
+  background-color: #CC0000;
 }
 input:checked + .xlr8r {
-  background-color: #000000;
+  background-color: #2E2E2E;
 }
 button {
+  content: "Save";
+  -webkit-appearance: none;
+  height: 60px;
+  width: 624px;
+  background-color: rgba(0, 0, 0, 0.4);
   float: top;
+  margin: 5px;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+  border: 2px solid transparent;
+  transition: all .2s;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
