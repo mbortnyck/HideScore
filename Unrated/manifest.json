@@ -35,6 +35,7 @@
         "http://www.residentadvisor.net/*", "https://www.residentadvisor.net/*",
         "http://www.rogerebert.com/*", "https://www.rogerebert.com/*",
         "http://www.rollingstone.com/*", "https://www.rollingstone.com/*",
+        "http://www.slantmagazine.com/*", "https://www.slantmagazine.com/*",
         "http://www.xlr8r.com/*", "https://www.xlr8r.com/*"
       ],
       "js": ["inject.js"],
@@ -53,6 +54,7 @@
     "styles/residentadvisor_reviews.css",
     "styles/rogerebert.css",
     "styles/rollingstone.css",
+    "styles/slantmagazine.css",
     "styles/xlr8r.css"
   ]
 }

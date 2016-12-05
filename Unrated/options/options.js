@@ -10,6 +10,7 @@ function save_options() {
     residentadvisor:  document.getElementById('residentadvisor').checked,
     rogerebert:       document.getElementById('rogerebert').checked,
     rollingstone:     document.getElementById('rollingstone').checked,
+    slantmagazine:    document.getElementById('slantmagazine').checked,
     xlr8r:            document.getElementById('xlr8r').checked
   }, function() {
     // Update status to let user know options were saved.
@@ -37,6 +38,7 @@ function restore_options() {
     document.getElementById('residentadvisor' ).checked = items.residentadvisor;
     document.getElementById('rogerebert'      ).checked = items.rogerebert;
     document.getElementById('rollingstone'    ).checked = items.rollingstone;
+    document.getElementById('slantmagazine'   ).checked = items.slantmagazine;
     document.getElementById('xlr8r'           ).checked = items.xlr8r;
   });
 }

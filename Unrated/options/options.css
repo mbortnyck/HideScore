@@ -61,6 +61,9 @@ input:checked + .rogerebert {
 input:checked + .rollingstone {
   background-color: #CC0000;
 }
+input:checked + .slantmagazine {
+  background-color: #1E73BB;
+}
 input:checked + .xlr8r {
   background-color: #2E2E2E;
 }
