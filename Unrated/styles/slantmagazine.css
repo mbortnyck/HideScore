@@ -1,0 +1,9 @@
+article .rating {
+  display: none;
+}
+#header-inner .rating {
+  display: none;
+}
+#header-inner #comment-count {
+  padding-top: 10px;
+}
