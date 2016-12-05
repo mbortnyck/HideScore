@@ -15,6 +15,7 @@ So far:
 - [Resident Advisor](http://www.residentadvisor.net/)
 - [Roger Ebert](http://www.rogerebert.com/)
 - [Rolling Stone](http://www.rollingstone.com/)
+- [Slant Magazine](http://www.slantedmagazine.com/)
 - [XLR8R](http://www.xlr8r.com/)
 
 With many more planned.
