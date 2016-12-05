@@ -52,6 +52,9 @@ input:checked + .pitchfork {
 input:checked + .residentadvisor {
   background-color: #ACC500;
 }
+input:checked + .rogerebert {
+  background-color: #175968;
+}
 input:checked + .rollingstone {
   background-color: #CC0000;
 }

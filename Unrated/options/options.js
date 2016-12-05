@@ -7,6 +7,7 @@ function save_options() {
     nme:              document.getElementById('nme').checked,
     pitchfork:        document.getElementById('pitchfork').checked,
     residentadvisor:  document.getElementById('residentadvisor').checked,
+    rogerebert:       document.getElementById('rogerebert').checked,
     rollingstone:     document.getElementById('rollingstone').checked,
     xlr8r:            document.getElementById('xlr8r').checked
   }, function() {
@@ -32,6 +33,7 @@ function restore_options() {
     document.getElementById('nme'             ).checked = items.nme;
     document.getElementById('pitchfork'       ).checked = items.pitchfork;
     document.getElementById('residentadvisor' ).checked = items.residentadvisor;
+    document.getElementById('rogerebert'      ).checked = items.rogerebert;
     document.getElementById('rollingstone'    ).checked = items.rollingstone;
     document.getElementById('xlr8r'           ).checked = items.xlr8r;
   });

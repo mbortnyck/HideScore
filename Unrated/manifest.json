@@ -32,6 +32,7 @@
         "http://www.nme.com/*", "https://www.nme.com/*",
         "http://pitchfork.com/*", "https://pitchfork.com/*",
         "http://www.residentadvisor.net/*", "https://www.residentadvisor.net/*",
+        "http://www.rogerebert.com/*", "https://www.rogerebert.com/*",
         "http://www.rollingstone.com/*", "https://www.rollingstone.com/*",
         "http://www.xlr8r.com/*", "https://www.xlr8r.com/*"
       ],
@@ -48,6 +49,7 @@
     "styles/pitchfork.css",
     "styles/residentadvisor.css",
     "styles/residentadvisor_reviews.css",
+    "styles/rogerebert.css",
     "styles/rollingstone.css",
     "styles/xlr8r.css"
   ]

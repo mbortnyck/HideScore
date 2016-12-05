@@ -1,0 +1,12 @@
+/* Sitewide - Star ratings */
+.star-rating i {
+	display: none;
+}
+/* Reviews page - "only great movies" check box */
+#reviews #filters fieldset:nth-child(1) .controls:nth-child(3) {
+	display: none;
+}
+/* Reviews page - Filter by star option */
+#reviews #filters fieldset:nth-child(2) .controls:nth-child(n+2) {
+	visibility: hidden;
+}

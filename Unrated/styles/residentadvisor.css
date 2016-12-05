@@ -31,3 +31,6 @@ div.plus8 aside#detail ul.clearfix li:nth-child(5) {
 div.reviewContent span.grey {
   display: none;
 }
+header#header #subnav-overview a:visited + body#body .content-list li:nth-child(1) .content.clearfix {
+  display: none;
+}
