@@ -41,5 +41,21 @@ function restore_options() {
   });
 }
 
+function all() {
+  items = document.querySelectorAll('input[type=checkbox]');
+  for (var i = 0; i < items.length; i++) {
+    items[i].checked = true;
+  }
+}
+
+function none() {
+  items = document.querySelectorAll('input[type=checkbox]');
+  for (var i = 0; i < items.length; i++) {
+    items[i].checked = false;
+  }
+}
+
 document.addEventListener('DOMContentLoaded', restore_options);
+document.getElementById('all').addEventListener('click', all);
+document.getElementById('none').addEventListener('click', none);
 document.getElementById('save').addEventListener('click', save_options);

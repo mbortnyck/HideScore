@@ -70,10 +70,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 1em;
-  line-height: 4;
   -webkit-appearance: none;
-  height: 60px;
-  width: 624px;
   background: #9e9e9e;
   float: top;
   margin: 5px;
@@ -87,4 +84,12 @@ button:focus {
 }
 button:hover {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+button.top {
+  height: 40px;
+  width: 305px;
+}
+button.bottom {
+  height: 60px;
+  width: 624px;
 }
