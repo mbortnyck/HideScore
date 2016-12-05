@@ -15,7 +15,7 @@ function save_options() {
     save.textContent = 'Options saved.';
     save.style.background = '#1d9650';
     setTimeout(function() {
-      save.style.background = 'rgba(0, 0, 0, 0.4)';
+      save.style.background = '#9e9e9e';
       save.textContent = 'Save';
     }, 750);
   });
