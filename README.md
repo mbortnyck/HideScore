@@ -12,6 +12,7 @@ So far:
 - [NME](http://www.nme.com/)
 - [Pitchfork](http://pitchfork.com/)
 - [Resident Advisor](http://www.residentadvisor.net/)
+- [Roger Ebert](http://www.rogerebert.com/)
 - [Rolling Stone](http://www.rollingstone.com/)
 - [XLR8R](http://www.xlr8r.com/)
 
