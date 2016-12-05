@@ -13,7 +13,9 @@ function save_options() {
     // Update status to let user know options were saved.
     var save = document.getElementById('save');
     save.textContent = 'Options saved.';
+    save.style.background = '#1d9650';
     setTimeout(function() {
+      save.style.background = 'rgba(0, 0, 0, 0.4)';
       save.textContent = 'Save';
     }, 750);
   });

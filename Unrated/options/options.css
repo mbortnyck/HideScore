@@ -17,7 +17,7 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   border: 2px solid transparent;
-  transition: all .2s;
+  transition: all .3s;
   cursor: pointer;
 }
 .check:after {
@@ -59,16 +59,21 @@ input:checked + .xlr8r {
   background-color: #2E2E2E;
 }
 button {
-  content: "Save";
+  font: 11px BlinkMacSystemFont;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+  line-height: 4;
   -webkit-appearance: none;
   height: 60px;
   width: 624px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.4);
   float: top;
   margin: 5px;
-  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   border: 2px solid transparent;
-  transition: all .2s;
+  transition: all .4s;
   cursor: pointer;
 }
 button:focus {
@@ -76,4 +81,8 @@ button:focus {
 }
 button:hover {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+button .state-success {
+  content: "Options Saved";
+  background: #1D9650;
 }
