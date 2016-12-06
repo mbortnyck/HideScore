@@ -15,9 +15,6 @@ body {
   float: left;
   margin: 5px;
 }
-.option .top {
-  margin-top: 0px;
-}
 .check {
   width: 200px;
   height: 100px;
