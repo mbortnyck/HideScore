@@ -40,6 +40,10 @@
       ],
       "js": ["inject.js"],
       "run_at": "document_start"
+    },
+    {
+      "matches": ["https://www.residentadvisor.net/reviews.aspx"],
+      "css": ["styles/residentadvisor_reviews.css"]
     }
   ],
 
