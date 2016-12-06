@@ -34,3 +34,7 @@ div.reviewContent span.grey {
 header#header #subnav-overview a:visited + body#body .content-list li:nth-child(1) .content.clearfix {
   display: none;
 }
+/* Reviews section - prevents uneven row sizes */
+.reviewArchive .clear8 {
+  float: none;
+}
