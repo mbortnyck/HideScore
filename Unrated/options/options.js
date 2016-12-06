@@ -15,11 +15,13 @@ function save_options() {
   }, function() {
     // Update status to let user know options were saved.
     var save = document.getElementById('save');
-    save.textContent = 'Options saved';
+    save.textContent = 'options saved';
     save.style.background = '#1D9650';
     setTimeout(function() {
       save.style.background = '#9e9e9e';
-      save.textContent = 'Save';
+      setTimeout(function () {
+        save.textContent = 'save';
+      }, 250);
     }, 750);
   });
 }
