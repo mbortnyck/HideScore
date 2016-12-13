@@ -26,23 +26,23 @@
   "content_scripts": [
     {
       "matches": [
-        "http://www.avclub.com/*", "https://www.avclub.com/*",
-        "http://www.gamespot.com/*", "https://www.gamespot.com/*",
-        "http://www.theguardian.com/*", "https://www.theguardian.com/*",
-        "http://www.ign.com/*", "https://www.ign.com/*",
-        "http://www.nme.com/*", "https://www.nme.com/*",
-        "http://pitchfork.com/*", "https://pitchfork.com/*",
-        "http://www.residentadvisor.net/*", "https://www.residentadvisor.net/*",
-        "http://www.rogerebert.com/*", "https://www.rogerebert.com/*",
-        "http://www.rollingstone.com/*", "https://www.rollingstone.com/*",
-        "http://www.slantmagazine.com/*", "https://www.slantmagazine.com/*",
-        "http://www.xlr8r.com/*", "https://www.xlr8r.com/*"
+        "*://www.avclub.com/*",
+        "*://www.gamespot.com/*",
+        "*://www.theguardian.com/*",
+        "*://www.ign.com/*",
+        "*://www.nme.com/*",
+        "*://pitchfork.com/*",
+        "*://www.residentadvisor.net/*",
+        "*://www.rogerebert.com/*",
+        "*://www.rollingstone.com/*",
+        "*://www.slantmagazine.com/*",
+        "*://www.xlr8r.com/*"
       ],
       "js": ["inject.js"],
       "run_at": "document_start"
     },
     {
-      "matches": ["https://www.residentadvisor.net/reviews.aspx"],
+      "matches": ["*://www.residentadvisor.net/reviews.aspx"],
       "css": ["styles/residentadvisor_reviews.css"]
     }
   ],
